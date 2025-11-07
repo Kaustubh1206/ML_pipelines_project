@@ -1,0 +1,8 @@
+2025-11-07 16:34:27,358 - werkzeug - WARNING -  * Debugger is active!
+2025-11-07 16:34:27,376 - werkzeug - INFO -  * Debugger PIN: 437-219-061
+2025-11-07 16:35:02,956 - root - INFO - WE are testing the second methods of logging
+2025-11-07 16:35:02,958 - werkzeug - INFO - 127.0.0.1 - - [07/Nov/2025 16:35:02] "GET / HTTP/1.1" 200 -
+2025-11-07 16:35:03,193 - werkzeug - INFO - 127.0.0.1 - - [07/Nov/2025 16:35:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-07 16:35:46,064 - root - INFO - WE are testing the second methods of logging
+2025-11-07 16:35:46,065 - werkzeug - INFO - 127.0.0.1 - - [07/Nov/2025 16:35:46] "GET / HTTP/1.1" 200 -
+2025-11-07 16:35:56,199 - werkzeug - INFO -  * Detected change in '/Users/kaustubh/Desktop/ML_Pipeline_Project/app.py', reloading
