@@ -1,0 +1,5 @@
+2025-11-08 02:12:42,599 - root - INFO - Dataingestion inititated
+2025-11-08 02:12:42,633 - root - INFO - Data read
+2025-11-08 02:12:42,709 - root - INFO - Data converted to raw
+2025-11-08 02:12:42,719 - root - INFO - Data is splited into train and test
+2025-11-08 02:12:42,793 - root - INFO - Data Ingestion completed
