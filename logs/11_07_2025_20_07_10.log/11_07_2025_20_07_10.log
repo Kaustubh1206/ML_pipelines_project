@@ -1,5 +1,0 @@
-2025-11-07 20:07:10,171 - werkzeug - WARNING -  * Debugger is active!
-2025-11-07 20:07:10,187 - werkzeug - INFO -  * Debugger PIN: 437-219-061
-2025-11-07 20:07:23,454 - root - INFO - WE are testing the second methods of logging
-2025-11-07 20:07:23,455 - root - INFO - Error Occurs in python script name[/Users/kaustubh/Desktop/ML_Pipeline_Project/app.py] line number [16] error message[HELLO WORLD KAUSTUBH, we are testing custom file ]
-2025-11-07 20:07:23,456 - werkzeug - INFO - 127.0.0.1 - - [07/Nov/2025 20:07:23] "GET / HTTP/1.1" 200 -

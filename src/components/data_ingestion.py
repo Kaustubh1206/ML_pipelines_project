@@ -3,10 +3,12 @@ import os
 import sys 
 import pandas as pd
 import numpy as np 
+from src.components import data_transformation
 from src.logger import logging
 from src.exception import CustomException
 from dataclasses import dataclass
 
+from src.components.data_transformation import DataTransformation
 from sklearn.model_selection import train_test_split 
 
 
@@ -15,9 +17,9 @@ from sklearn.model_selection import train_test_split
 class DataIngestionConfig:
     # here we are creating folder artifacts and storing these csv
     # the data can be taken from clouds or local dataset 
-    train_data_path=os.path.join('artifacts','train.csv')
-    test_data_path=os.path.join('artifacts','test.csv')
-    raw_data_path=os.path.join('artifacts','raw.csv')
+    train_data_path=os.path.join('artifacts/data_ingestion','train.csv')
+    test_data_path=os.path.join('artifacts/data_ingestion','test.csv')
+    raw_data_path=os.path.join('artifacts/data_ingestion','raw.csv')
 
 class DataIngestion:
     def __init__(self):
@@ -32,8 +34,8 @@ class DataIngestion:
 
 
             # This work on any machine. and perfect for pipeline                
-            data=pd.read_csv(os.path.join("notebook/data","income_cleandata.csv"))
-            
+            data=pd.read_csv(os.path.join("notebook/data","cleandata.csv"))
+
             logging.info("Data read")
                 # Creating artifacts folder
             os.makedirs(os.path.dirname(self.ingestion_config.raw_data_path),exist_ok=True)
@@ -61,4 +63,7 @@ class DataIngestion:
          
 if __name__ == "__main__":
     obj= DataIngestion()
-    obj.inititate_data_ingestion()
+    train_data_path, test_data_path = obj.inititate_data_ingestion()
+
+    data_transformation=DataTransformation()
+    train_arr, test_arr,  _ = data_transformation.inititate_data_transformation( train_data_path, test_data_path)
