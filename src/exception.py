@@ -17,7 +17,6 @@ def error_message_details(error,error_details:sys):
         exc_tb.tb_lineno, # in which line 
         str(error) # file no.
     )
-
     return error_message
 
 class CustomException(Exception):

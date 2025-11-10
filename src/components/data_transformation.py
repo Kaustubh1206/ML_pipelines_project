@@ -146,7 +146,7 @@ class DataTransformation:
 
             save_object(file_path=self.data_transformation_config.preprocessor_obj_file_path,
                         obj=preprocessor_obj)
-            logging.info("Pickle file saved")
+            logging.info("Pickle file saved") 
             return(train_array,
                    test_array,
                    self.data_transformation_config.preprocessor_obj_file_path)
