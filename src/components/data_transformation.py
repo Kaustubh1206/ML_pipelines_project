@@ -89,9 +89,10 @@ class DataTransformation:
             lower_limit = Q1 - 1.5 * iqr 
 
             # data frame 
-            df.loc[(df[col]>upper_limit),col]= upper_limit
-            df.loc[(df[col]<lower_limit),col]= lower_limit
-
+            # Ensure column is float to avoid dtype warning
+            df[col] = df[col].astype(float)
+            df.loc[(df[col] > upper_limit), col] = upper_limit
+            df.loc[(df[col] < lower_limit), col] = lower_limit
             return df 
 
         except Exception as e:

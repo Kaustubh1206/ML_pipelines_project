@@ -73,10 +73,14 @@ class ModelTrainer:
             ]
 
             best_model= model[best_model_name]
+
+            print(f" Best Model Found, Model Name is : {best_model_name}, Accuaracy Score: {best_model_score}")
+            print("\n----------------------------------------------------------------------------------------\n")
             logging.info(f"best_model found, Model name is {best_model_name}, accuracy score: {best_model_score}")
             save_object(file_path=self.model_trainer_config.train_model_file_path,
                         obj = best_model
                         )
+            
             
         except Exception as e:
             raise CustomException(e,sys)

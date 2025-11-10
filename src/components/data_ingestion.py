@@ -62,12 +62,12 @@ class DataIngestion:
             logging.info("Error occured in data ingestion stage")
             raise CustomException(e,sys)
          
-if __name__ == "__main__":
-    obj= DataIngestion()
-    train_data_path, test_data_path = obj.inititate_data_ingestion()
+# if __name__ == "__main__":
+#     obj= DataIngestion()
+#     train_data_path, test_data_path = obj.inititate_data_ingestion()
 
-    data_transformation=DataTransformation()
-    train_arr, test_arr,  _ = data_transformation.inititate_data_transformation( train_data_path, test_data_path)
+#     data_transformation=DataTransformation()
+#     train_arr, test_arr,  _ = data_transformation.inititate_data_transformation( train_data_path, test_data_path)
 
-    modeltrainer=ModelTrainer()
-    print(modeltrainer.initiate_model_trainer(train_arr,test_arr))
+#     modeltrainer=ModelTrainer()
+#     print(modeltrainer.initiate_model_trainer(train_arr,test_arr))
