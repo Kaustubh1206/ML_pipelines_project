@@ -1,0 +1,33 @@
+2025-11-10 16:31:19,876 - root - INFO - Dataingestion inititated
+2025-11-10 16:31:19,916 - root - INFO - Data read
+2025-11-10 16:31:20,075 - root - INFO - Data converted to raw
+2025-11-10 16:31:20,088 - root - INFO - Data is splited into train and test
+2025-11-10 16:31:20,236 - root - INFO - Data Ingestion completed
+2025-11-10 16:31:20,421 - root - INFO - Outliers function on train data
+2025-11-10 16:31:20,426 - root - INFO - Outliers function on train data
+2025-11-10 16:31:20,430 - root - INFO - Outliers function on train data
+2025-11-10 16:31:20,436 - root - INFO - Outliers function on train data
+2025-11-10 16:31:20,440 - root - INFO - Outliers function on train data
+2025-11-10 16:31:20,443 - root - INFO - Outliers function on train data
+2025-11-10 16:31:20,446 - root - INFO - Outliers function on train data
+2025-11-10 16:31:20,448 - root - INFO - Outliers function on train data
+2025-11-10 16:31:20,450 - root - INFO - Outliers function on train data
+2025-11-10 16:31:20,452 - root - INFO - Outliers function on train data
+2025-11-10 16:31:20,455 - root - INFO - Outliers function on train data
+2025-11-10 16:31:20,457 - root - INFO - Outliers function on train data
+2025-11-10 16:31:20,459 - root - INFO - Outliers function on test data
+2025-11-10 16:31:20,461 - root - INFO - Outliers function on test data
+2025-11-10 16:31:20,463 - root - INFO - Outliers function on test data
+2025-11-10 16:31:20,465 - root - INFO - Outliers function on test data
+2025-11-10 16:31:20,468 - root - INFO - Outliers function on test data
+2025-11-10 16:31:20,469 - root - INFO - Outliers function on test data
+2025-11-10 16:31:20,472 - root - INFO - Outliers function on test data
+2025-11-10 16:31:20,476 - root - INFO - Outliers function on test data
+2025-11-10 16:31:20,478 - root - INFO - Outliers function on test data
+2025-11-10 16:31:20,481 - root - INFO - Outliers function on test data
+2025-11-10 16:31:20,484 - root - INFO - Outliers function on test data
+2025-11-10 16:31:20,488 - root - INFO - Outliers function on test data
+2025-11-10 16:31:20,488 - root - INFO - Data Transformation Started
+2025-11-10 16:31:20,488 - root - INFO - Spliting data train into depndent and independent feature 
+2025-11-10 16:31:20,491 - root - INFO - Spliting data test into depndent and independent feature 
+2025-11-10 16:31:20,492 - root - INFO -  Data spliting completed. Inititializing Train Test Split

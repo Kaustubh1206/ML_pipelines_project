@@ -38,9 +38,9 @@ class DataTransformation:
         try:
             logging.info("Data Transformation Started")
 
-            numerical_features=['age', 'workclass', 'education.num', 'marital.status', 'occupation',
-       'relationship', 'race', 'sex', 'capital.gain', 'capital.loss',
-       'hours.per.week', 'native_country']
+            numerical_features=['age', 'workclass', 'education_num', 'marital_status', 'occupation',
+       'relationship', 'race', 'sex', 'capital_gain', 'capital_loss',
+       'hours_per_week', 'native_country']
 
             # Numerical Pipeline 
             num_pipeline = Pipeline(

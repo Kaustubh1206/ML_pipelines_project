@@ -1,0 +1,14 @@
+2025-11-10 15:49:01,363 - werkzeug - WARNING -  * Debugger is active!
+2025-11-10 15:49:01,379 - werkzeug - INFO -  * Debugger PIN: 437-219-061
+2025-11-10 15:49:15,390 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2025 15:49:15] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-10 15:49:15,541 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2025 15:49:15] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-10 15:49:15,544 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2025 15:49:15] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-10 15:49:15,691 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2025 15:49:15] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=HtyHHOEETnGb8LuqG1Mx HTTP/1.1" 200 -
+2025-11-10 15:49:15,694 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2025 15:49:15] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-10 15:49:18,516 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2025 15:49:18] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-10 15:49:18,669 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2025 15:49:18] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-10 15:49:18,677 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2025 15:49:18] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-10 15:49:18,718 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2025 15:49:18] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-10 15:49:18,721 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2025 15:49:18] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=HtyHHOEETnGb8LuqG1Mx HTTP/1.1[0m" 304 -
+2025-11-10 15:49:18,736 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2025 15:49:18] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-10 15:49:47,308 - werkzeug - INFO -  * Detected change in '/Users/kaustubh/Desktop/ML_Pipeline_Project/app.py', reloading
